@@ -1,0 +1,306 @@
+<html>
+
+  <head>
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/0.7.13/webcomponents-lite.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Amatica+SC" rel="stylesheet">
+    <link rel="import" href="https://components.cloudstitch.com/cloudstitch-handlebars.html" />
+    <link href="base.css" rel="stylesheet" type="text/css" />
+
+    <script type="text/javascript" src="rotate.js"></script>
+    <script type="text/javascript" src="exchange_rate_button.js"></script>
+    <script type="text/javascript">
+      var conversion_rate = 0;
+
+      $(window).load(function() {
+          startRotator("#masthead");
+      });
+
+      $(function(){
+        var prev;
+
+      $('.exchange_rate_button').hover(function(){
+        prev = $(this).text();
+	var conversion_txt = "$1 = "+conversion_rate+" B-Bricks";
+        $(this).text(conversion_txt);
+      }, function(){
+        $(this).text(prev)
+      });
+
+})
+
+    </script>
+  </head>
+
+  <body>
+
+    <div id="menu">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#archive">Archive</a></li>
+        <li><a href="#catalog">Catalog</a></li>
+        <li><a href="#calendar">Featured</a></li>
+      </ul>
+    </div>
+
+    <div id="masthead">
+      <a href="http://www.google.com"><img src="http://images.cb2.com/is/image/CB2/ParadigmDiningTableAV3S15_16x9?$web_zoom_furn_hero$" /></a>
+      <a href="http://www.google.com"><img src="http://www.decoratethetable.com/wp-content/uploads/2015/10/Fancy-kitchen-table-decorating-ideas.jpg" /></a>
+    </div>
+
+    <div id="masthead_overlay">
+      <a href="#calendar">Calendar</a>
+      <a class="exchange_rate_button" href="#">Current Exchange Rate</a>
+    </div>
+
+    <a name="intro"></a>
+    <div class="insection">
+
+	<h1>Stay With Us. Play With Us in San Francisco.</h1>
+	<p>We are a household of six shaping our daily lives. The use of Brickowski Bricks allows us to figure out what our favorite things are and what sorts of activities help us live best. With Brickowski Bricks, you can spend evenings in our home, buy things we make, and services we provide. You can also follow how we stay active and work towards making our own SF lifestyle. To visit for a few evenings, send an email to someone you know who lives here and/or active@brickowski.com</p>
+
+    </div>
+
+    <a name="calendar"></a>
+    <div class="insection">
+      <h1>Calendar of Available Dates</h1>
+
+        <div class="calendar-month">
+	<TABLE BORDER=3 CELLSPACING=3 CELLPADDING=3> 
+	<TR>
+	<TD COLSPAN="7" ALIGN=center><B>July 2016</B></TD> 
+	</TR>
+	<TR> 
+	<TD COLSPAN="7" ALIGN=center><I>Available Dates Unblocked</I></TD>
+	</TR>
+
+	<TR> 
+	<TD ALIGN=center>Sun</TD>
+	<TD ALIGN=center>Mon</TD>
+	<TD ALIGN=center>Tue</TD>
+	<TD ALIGN=center>Wed</TD>
+	<TD ALIGN=center>Thu</TD>
+	<TD ALIGN=center>Fri</TD>
+	<TD ALIGN=center>Sat</TD>
+	</TR>
+	<TR> 
+	<TD ALIGN=center></TD>
+	<TD ALIGN=center></TD>
+	<TD ALIGN=center></TD>
+	<TD ALIGN=center></TD>
+	<TD ALIGN=center></TD>
+	<TD ALIGN=center>1</TD>
+	<TD ALIGN=center>2</TD>
+	</TR>
+	<TR> 
+	<TD ALIGN=center>3</TD>
+	<TD ALIGN=center>4</TD>
+	<TD ALIGN=center>5</TD>
+	<TD bgcolor="#c0c0ff" ALIGN=center>6</TD>
+	<TD bgcolor="#c0c0ff" ALIGN=center>7</TD>
+	<TD bgcolor="#c0c0ff" ALIGN=center>8</TD>
+	<TD bgcolor="#c0c0ff" ALIGN=center>9</TD>
+	</TR>
+	<TR> 
+	<TD bgcolor="#c0c0ff" ALIGN=center>10</TD>
+	<TD bgcolor="#c0c0ff" ALIGN=center>11</TD>
+	<TD bgcolor="#c0c0ff" ALIGN=center>12</TD>
+	<TD ALIGN=center>13</TD>
+	<TD ALIGN=center>14</TD>
+	<TD ALIGN=center>15</TD>
+	<TD ALIGN=center>16</TD>
+	</TR>
+	<TR> 
+	<TD ALIGN=center>17</TD>
+	<TD ALIGN=center>18</TD>
+	<TD ALIGN=center>19</TD>
+	<TD ALIGN=center>20</TD>
+	<TD ALIGN=center>21</TD>
+	<TD ALIGN=center>22</TD>
+	<TD ALIGN=center>23</TD>
+	</TR>
+	<TR> 
+	<TD ALIGN=center>24</TD>
+	<TD ALIGN=center>25</TD>
+	<TD ALIGN=center>26</TD>
+	<TD ALIGN=center>27</TD>
+	<TD ALIGN=center>28</TD>
+	<TD ALIGN=center>29</TD>
+	<TD ALIGN=center>30</TD>
+	</TR>
+	<TR> 
+	<TD ALIGN=center>31</TD>
+	<TD ALIGN=center></TD>
+	<TD ALIGN=center></TD>
+	<TD ALIGN=center></TD>
+	<TD ALIGN=center></TD>
+	<TD ALIGN=center></TD>
+	<TD ALIGN=center></TD>
+
+	</TR>
+        </TABLE></div>
+
+
+        <div class="calendar-month">
+	<TABLE BORDER=3 CELLSPACING=3 CELLPADDING=3> 
+	<TR>
+	<TD COLSPAN="7" ALIGN=center><B>August 2016</B></TD> 
+	</TR>
+	<TR> 
+	<TD COLSPAN="7" ALIGN=center><I>Available Dates Unblocked</I></TD>
+	</TR>
+
+	<TR> 
+	<TD ALIGN=center>Sun</TD>
+	<TD ALIGN=center>Mon</TD>
+	<TD ALIGN=center>Tue</TD>
+	<TD ALIGN=center>Wed</TD>
+	<TD ALIGN=center>Thu</TD>
+	<TD ALIGN=center>Fri</TD>
+	<TD ALIGN=center>Sat</TD>
+	</TR>
+	<TR> 
+	<TD ALIGN=center></TD>
+	<TD ALIGN=center>1</TD>
+	<TD ALIGN=center>2</TD>
+	<TD ALIGN=center>3</TD>
+	<TD ALIGN=center>4</TD>
+	<TD ALIGN=center>5</TD>
+	<TD ALIGN=center>6</TD>
+	</TR>
+	<TR> 
+	<TD ALIGN=center>7</TD>
+	<TD ALIGN=center>8</TD>
+	<TD ALIGN=center>9</TD>
+	<TD ALIGN=center>10</TD>
+	<TD ALIGN=center>11</TD>
+	<TD ALIGN=center>12</TD>
+	<TD ALIGN=center>13</TD>
+	</TR>
+	<TR> 
+	<TD ALIGN=center>14</TD>
+	<TD ALIGN=center>15</TD>
+	<TD ALIGN=center>16</TD>
+	<TD ALIGN=center>17</TD>
+	<TD ALIGN=center>18</TD>
+	<TD ALIGN=center>19</TD>
+	<TD ALIGN=center>20</TD>
+	</TR>
+	<TR> 
+	<TD ALIGN=center>21</TD>
+	<TD ALIGN=center>22</TD>
+	<TD ALIGN=center>23</TD>
+	<TD ALIGN=center>24</TD>
+	<TD ALIGN=center>25</TD>
+	<TD ALIGN=center>26</TD>
+	<TD ALIGN=center>27</TD>
+	</TR>
+	<TR> 
+	<TD ALIGN=center>28</TD>
+	<TD ALIGN=center>29</TD>
+	<TD ALIGN=center>30</TD>
+	<TD ALIGN=center>31</TD>
+	<TD ALIGN=center></TD>
+	<TD ALIGN=center></TD>
+	<TD ALIGN=center></TD>
+	</TR>
+	<TR> 
+	<TD ALIGN=center>-</TD>
+	<TD ALIGN=center></TD>
+	<TD ALIGN=center></TD>
+	<TD ALIGN=center></TD>
+	<TD ALIGN=center></TD>
+	<TD ALIGN=center></TD>
+	<TD ALIGN=center></TD>
+
+	</TR>
+        </TABLE></div>
+
+
+        <div class="calendar-month">
+	<TABLE BORDER=3 CELLSPACING=3 CELLPADDING=3> 
+	<TR>
+	<TD COLSPAN="7" ALIGN=center><B>September 2016</B></TD> 
+	</TR>
+	<TR> 
+	<TD COLSPAN="7" ALIGN=center><I>Available Dates Unblocked</I></TD>
+	</TR>
+
+	<TR> 
+	<TD ALIGN=center>Sun</TD>
+	<TD ALIGN=center>Mon</TD>
+	<TD ALIGN=center>Tue</TD>
+	<TD ALIGN=center>Wed</TD>
+	<TD ALIGN=center>Thu</TD>
+	<TD ALIGN=center>Fri</TD>
+	<TD ALIGN=center>Sat</TD>
+	</TR>
+	<TR> 
+	<TD ALIGN=center></TD>
+	<TD ALIGN=center></TD>
+	<TD ALIGN=center></TD>
+	<TD ALIGN=center></TD>
+	<TD ALIGN=center>1</TD>
+	<TD ALIGN=center>2</TD>
+	<TD ALIGN=center>3</TD>
+	</TR>
+	<TR> 
+	<TD ALIGN=center>4</TD>
+	<TD ALIGN=center>5</TD>
+	<TD ALIGN=center>6</TD>
+	<TD ALIGN=center>7</TD>
+	<TD ALIGN=center>8</TD>
+	<TD ALIGN=center>9</TD>
+	<TD ALIGN=center>10</TD>
+	</TR>
+	<TR> 
+	<TD ALIGN=center>11</TD>
+	<TD ALIGN=center>12</TD>
+	<TD ALIGN=center>13</TD>
+	<TD ALIGN=center>14</TD>
+	<TD ALIGN=center>15</TD>
+	<TD ALIGN=center>16</TD>
+	<TD ALIGN=center>17</TD>
+	</TR>
+	<TR> 
+	<TD ALIGN=center>18</TD>
+	<TD ALIGN=center>19</TD>
+	<TD ALIGN=center>20</TD>
+	<TD ALIGN=center>21</TD>
+	<TD ALIGN=center>22</TD>
+	<TD ALIGN=center>23</TD>
+	<TD ALIGN=center>24</TD>
+	</TR>
+	<TR> 
+	<TD ALIGN=center>25</TD>
+	<TD ALIGN=center>26</TD>
+	<TD ALIGN=center>27</TD>
+	<TD ALIGN=center>28</TD>
+	<TD ALIGN=center>29</TD>
+	<TD ALIGN=center>30</TD>
+	<TD ALIGN=center></TD>
+	</TR>
+	<TR> 
+	<TD ALIGN=center>-</TD>
+	<TD ALIGN=center></TD>
+	<TD ALIGN=center></TD>
+	<TD ALIGN=center></TD>
+	<TD ALIGN=center></TD>
+	<TD ALIGN=center></TD>
+	<TD ALIGN=center></TD>
+
+	</TR>
+        </TABLE></div>
+
+    </div>
+
+    <cloudstitch-handlebars user="radishpower" app="brickowski-bricks"></cloudstitch-handlebars>
+
+    <div id="footer">
+    </div>
+
+  </body>
+
+</html>
