@@ -14,5 +14,5 @@ function prepareRotator(elem) {
 
 function startRotator(elem) {
   prepareRotator(elem);
-  setInterval("rotateBanners('"+elem+"')", 2500);
+  setInterval("rotateBanners('"+elem+"')", 3500);
 }
