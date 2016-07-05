@@ -3,6 +3,15 @@ body {
   padding: 0 0;
 }
 
+h5 {
+  font-family: 'Amatica SC', cursive;
+}
+
+#container {
+  margin-left: 1em;
+  width: 720px;
+}
+
 .insection {
   margin: 3em 3em;
 }
