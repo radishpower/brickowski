@@ -1,0 +1,120 @@
+body {
+  margin: 0 0;
+  padding: 0 0;
+}
+
+#container {
+  width: 100%;
+  height: 1080px;
+  background-color: #f0ffff;
+}
+
+h1, h5 {
+  font-family: 'Amatica SC', cursive;
+}
+
+#masthead {
+  width: 100%;
+  height: 720px;
+  position: relative;
+  overflow: hidden;
+}
+
+#masthead img {
+  width: 100%;
+}
+
+.clear {
+  width: 100%;
+  height: 350px;
+}
+
+#details {
+  position: relative;
+  width: 100%;
+  clear: left;
+  display: inline-block;
+}
+
+.detail-block {
+  display: block;
+  float: left;
+  margin: 1em 1em;
+}
+
+#footer {
+  position: absolute;
+  top: 1600px;
+  width: 100%;
+  background-color: #e0e0e0;
+}
+
+.active {
+  background-color: #f0ffff;
+}
+
+.insection {
+  padding-left: 1em;
+}
+
+#footer ul {
+  font-size: 2em;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f0f0f0;
+  font-family: 'Amatica SC', cursive;
+}
+
+#footer li {
+  float: left;
+}
+
+#footer li a {
+  display: block;
+  color: #333333;
+  text-align: center;
+  padding: 28px 37px;
+  text-decoration: none;
+}
+
+#footer li a:hover {
+  background-color: #333333;
+  color: #f0f0f0;
+}
+
+#masthead img {
+  position: absolute;
+  width: 100%;
+}
+
+#masthead_overlay {
+  position: absolute;
+  text-align: center;
+  top: 10;
+  left: 35;
+  z-index: 1;
+}
+
+#masthead_overlay a {
+  display: block;
+  float: left;
+  text-decoration: none;
+  text-align: center;
+  color: #000;
+  width: 200px;
+  border: 1px solid white;
+  padding: 13px;
+  margin: 13px;
+  background-color: #f0f0f0;
+  opacity: 0.8;
+  font-family: 'Amatica SC', cursive;
+  font-size: 1.5em;
+}
+
+#masthead_overlay a:hover {
+  background-color: #333333;
+  color: white;
+  opacity: 0.8;
+}

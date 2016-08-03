@@ -1,0 +1,117 @@
+<html>
+
+<head>
+
+    <meta http-equiv="refresh" content="6; page01.html" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/0.7.13/webcomponents-lite.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Amatica+SC" rel="stylesheet">
+
+  </script>
+
+  <style>
+
+    .active { background-color: #f0ffff; }
+
+    .insection { padding: 0 30;}
+
+    body { margin: 0 0; }
+
+    #container {
+      background-color: #c0cccc;
+    }
+
+    #masthead {
+      height: 520px;
+    }
+
+    #details {
+      position: relative;
+    }
+
+    .detail-block {
+      display: block;
+      float: left;
+      width: 48%;
+      margin: 5px;
+      overflow: hidden;
+    }
+
+    .clear {
+      width: 100%;
+      clear: left;
+    }
+
+    h1, h5 {
+      font-family: 'Amatica SC', cursive;
+    }
+
+#footer ul {
+  font-size: 2em;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f0f0f0;
+  font-family: 'Amatica SC', cursive;
+}
+
+#footer li {
+  float: left;
+}
+
+#footer li a {
+  display: block;
+  color: #333333;
+  text-align: center;
+  padding: 28px 37px;
+  text-decoration: none;
+}
+
+#footer li a:hover {
+  background-color: #333333;
+  color: #f0f0f0;
+}    
+
+  </style>
+
+</head>
+
+<body>
+
+  <div style="background-image: url('imgs/major_map.png');" id="masthead">
+    <h1>Thanks for staying with us!</h1>
+  </div>
+
+  <div id="container">
+  
+    <div id="details">
+      <div class="detail-block">
+        <img src="imgs/major_TSG.png">
+      </div>
+      <div class="detail-block">
+        <h1>These are your roommates. We also share the home from top to bottom so there are three roommates upstairs that come and visit us as well. This is the only room that is airBNBed. (Terence, Grace, Szymon)</h1>
+      </div>
+    </div>
+  
+  <div class="clear"></div>
+  
+  <div id="footer">
+    <div class="insection">
+      <h1>Wifi Name: Brickowski</h1>
+      <h1>Password: imjusthereforthefood</h1>
+    </div>
+      <ul>
+        <li class="active"><a href="#about">Basic Info</a></li>
+        <li><a href="#archive">Recommendation</a></li>
+        <li><a href="#catalog">House Announcements</a></li>
+        <li><a href="#calendar">Checking Out</a></li>
+      </ul>
+  </div>
+
+  </div>
+
+</body>
+
+</html>
