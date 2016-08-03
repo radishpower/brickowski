@@ -3,13 +3,16 @@ body {
   padding: 0 0;
 }
 
+h1 { font-family: 'Amatica SC', cursive; font-size: 200%; }
+
 h5 {
   font-family: 'Amatica SC', cursive;
+  font-size: 120%;
 }
 
 #container {
-  margin-left: 1em;
-  width: 720px;
+  margin: auto;
+  max-width: 720px;
 }
 
 .insection {
@@ -101,49 +104,4 @@ h5 {
   float: left;
   width: 300px;
   margin: 30px 30px;
-}
-
-.archive_photos {
-  position: relative;
-  height: 400px;
-  width: 100%;
-  overflow: hidden;
-}
-
-.archive_photos_before {
-  float: left;
-  width: 50%;
-  height: 260px;
-  overflow: hidden;
-}
-
-.archive_photos_before h1 {
-  position: absolute;
-  color: white;
-  top: 0;
-  left: 17;
-}
-
-.archive_photos_before img {
-  float: left;
-  width: 100%;
-}
-
-.archive_photos_after {
-  float: right;
-  width: 50%;
-  height: 260px;
-  overflow: hidden;
-}
-
-.archive_photos_after h1 {
-  position: absolute;
-  color: white;
-  top: 0;
-  right: 17;
-}
-
-.archive_photos_after img {
-  float: right;
-  width: 100%;
 }
