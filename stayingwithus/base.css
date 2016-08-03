@@ -28,31 +28,33 @@ h5 {
   line-height: 1.5em;
 }
 
+#menu {
+}
+
 #menu ul {
-  font-size: 2em;
   list-style-type: none;
   margin: 0;
-  padding: 0;
   overflow: hidden;
-  background-color: #f0f0f0;
+  background-color: #262e31;
+  color: #ffffff;
   font-family: 'Amatica SC', cursive;
 }
 
 #menu li {
   float: right;
+  color: #3cb18f;
 }
 
 #menu li a {
   display: block;
-  color: #333333;
+  color: #3cb18f;
   text-align: center;
   padding: 28px 37px;
   text-decoration: none;
 }
 
 #menu li a:hover {
-  background-color: #333333;
-  color: #f0f0f0;
+  color: #bbc1cd;
 }
 
 #masthead {
